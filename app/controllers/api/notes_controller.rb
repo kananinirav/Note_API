@@ -1,4 +1,4 @@
-class Api::NotesController < ApplicationRecord
+class Api::NotesController < ApplicationController
     skip_before_action :verify_authenticity_token
 
 

@@ -1,3 +1,3 @@
-class Note < ApplicationRecord
+class Note < ActiveRecord::Base
     
 end
